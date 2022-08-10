@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * social service.
+ * landing service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::social.social');
+module.exports = createCoreService('api::landing.landing');

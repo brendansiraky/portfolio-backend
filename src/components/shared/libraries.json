@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_libraries",
+  "info": {
+    "displayName": "Libraries",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
