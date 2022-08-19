@@ -16,15 +16,28 @@
       "required": true,
       "unique": false
     },
-    "long_description": {
-      "type": "text",
-      "required": true,
-      "unique": false
-    },
-    "libraries": {
+    "technologies": {
       "type": "component",
       "repeatable": true,
       "component": "shared.libraries"
+    },
+    "long_description": {
+      "type": "richtext"
+    },
+    "sources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sources"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

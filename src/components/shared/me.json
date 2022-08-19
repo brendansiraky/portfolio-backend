@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_us",
+  "info": {
+    "displayName": "Me"
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "richtext"
+    },
+    "technologies": {
+      "displayName": "technologies",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.technologies"
+    }
+  }
+}

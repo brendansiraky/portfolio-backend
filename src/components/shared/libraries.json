@@ -1,7 +1,7 @@
 {
   "collectionName": "components_shared_libraries",
   "info": {
-    "displayName": "Libraries",
+    "displayName": "Technologies",
     "description": ""
   },
   "options": {},
@@ -12,6 +12,16 @@
     },
     "link": {
       "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
