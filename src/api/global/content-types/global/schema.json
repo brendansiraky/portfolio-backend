@@ -24,6 +24,15 @@
         "videos",
         "audios"
       ]
+    },
+    "email": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "build": {
+      "type": "richtext"
     }
   }
 }
