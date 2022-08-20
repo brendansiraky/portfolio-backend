@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_archives",
+  "info": {
+    "displayName": "Archives",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.libraries"
+    },
+    "sources": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sources"
+    }
+  }
+}

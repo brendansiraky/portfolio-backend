@@ -26,6 +26,11 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.me"
+    },
+    "archives": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.archives"
     }
   }
 }
